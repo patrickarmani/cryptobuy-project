@@ -1,0 +1,13 @@
+{
+  "name": "cryptobuy-project",
+  "version": "1.0.0",
+  "description": "WDD330  final project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Patrick Armani <arm22001@byui.edu>",
+  "dependencies": {
+    "parcel": "^2.10.3"
+  }
+}
