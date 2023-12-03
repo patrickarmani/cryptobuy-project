@@ -1,0 +1,133 @@
+:root {
+    --font-body: Arial, Helvetica, sans-serif;
+    --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  
+    /* colors */
+    --primary-color: #68b5f0;
+    --secondary-color: rgb(2, 10, 35);
+    --tertiary-color: #a4b8c4;
+    --light-grey: #d0d0d0;
+    --dark-grey: #675e5e;
+  
+    /* sizes */
+    --font-base: 18px;
+    --small-font: 0.8em;
+    --large-font: 1.2em;
+  }
+* {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /*padding: 0;*/
+  overflow: center;
+  font-family: var(--font-body);
+  font-size: var(--font-base);
+  color: var(--dark-grey);
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  left: 20%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* index.html */ 
+
+.divider {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.logo {
+  line-height: 60px;
+  width: 245px;
+  overflow: hidden;
+  display: flex;
+  font-size: 30px;
+  text-align: right;
+  font-family: var(--font-headline);
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo a {
+  text-decoration: none;
+  color: var(--font-body);
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.logo--square {
+  top: 10px;
+  width: 110px;
+  height: 80px;
+
+  flex-direction: column;
+  align-items: flex-end;
+  /*box-shadow: 1px 1px 4px 1px var(--light-grey);*/
+  justify-content: center;
+  align-items: center;
+  /*line-height: 0.5;*/
+}
+.logo--square img {
+  position:relative;
+  left: 10%;
+  margin-top: -20px;
+  
+}
+
+.mission {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:aqua;
+  font-size: 20px;
+  font-stretch: semi-condensed ;
+}
+
+.presentation {
+  
+  width: 80%;
+  margin: 30px auto 0;
+  
+}
+/* index. html - first alert */
+
+.alert-box {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: purple;
+  color: white;
+  line-height: 1.8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.fa-solid.fa-user {
+  padding: 20 200;
+}
