@@ -1,0 +1,8 @@
+{
+    "nome": "Bitcoin[BTC]",
+    "price": 30,
+    "cidade": "São Paulo",
+    "emails": ["joao@gmail.com", "joao@hotmail.com"],
+    "ativo": true
+  }
+  
